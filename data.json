@@ -1,0 +1,50 @@
+{"basics":{
+  "image":"profile.jpg",
+  "name":"Hima",
+  "phoneno":"+91-9346120980",
+  "email":"himakavya9785@gmail.com",
+  "address":"SRKR College,Bhimavaram."
+},
+"Careerobjective":{
+"info":"By beginning your resume with a quality that makes you valuable to the company, you'll immediately capture the hiring manager's attention. Broadly, a career objective is a short summary telling a hiring manager that you have the relevant skills, abilities and experience to help the company achieve its goals."
+},
+"education":[
+{
+    "degree":"Btech",
+    "institute":"SRKR College",
+    "data":["2016-2020","83%"]
+},
+  {
+      "degree":"Intermediate",
+      "institute":"Tirumala College",
+      "data":["2014-2016","96%"]
+},
+{
+    "degree":"ICSE",
+    "institute":"St Ann's school",
+    "data":["2014","78%"]
+}
+],
+"technical":[
+  {
+    "title":"languages",
+    "data":["Proficient in C", "Java", "PHP and MYSQL."]
+},
+{
+  "title":"database",
+  "data":["sql","mysql","oracle"]
+},
+{
+  "title":"operating systems",
+  "data":["unix","linux"]
+}
+],
+
+"achievements":
+{
+  "A1":"Indulge in the coding of the unique software of security which was developed at ABD Company.",
+  "A2":"Give many speeches and take an active participation in various software development program.",
+  "A3":"Receive first prize in Amity University for Hacking.",
+  "A4":"Attended the seminar on Virus and Spyware at IIT Delhi."
+}
+}

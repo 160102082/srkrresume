@@ -1,0 +1,115 @@
+.parent{
+  display:flex;
+  flex-direction: row;
+  border:3px solid red;
+  background-color:#F5D0A9;
+}
+.childone{
+  border:3px solid blue;
+  padding:5%;
+  margin:2%;
+  width:30%;
+  border-radius: 10%;
+  text-align:center;
+}
+.childtwo{
+  border:3px solid green;
+  padding:3%;
+  margin:2%;
+  width:70%;
+border-radius: 10%;
+}
+@media only screen and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+    border:3px solid red;
+    text-align: center;
+}
+  a,h1,h2,h3,p{
+    word-wrap:break-word;
+  }
+  .childone{
+    border:3px solid blue;
+    padding:5%;
+    margin:2%;
+    width:85%;
+    border-radius: 10%;
+    text-align:center;
+    background-color:#D0FA58;
+  }
+  .childtwo{
+    border:3px solid green;
+    padding:3%;
+    margin:2%;
+    width:85%;
+  border-radius: 10%;
+  background-color:#E2A9F3 ;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+.parent{
+  display:flex;
+  flex-direction: row;
+  border:3px solid red;
+}
+.childone{
+  border:3px solid blue;
+  padding:5%;
+  margin:2%;
+  width:30%;
+  border-radius: 10%;
+  text-align:left;
+  background-color:#F5D0A9;
+}
+
+a,p,h1,h2,h3{
+  word-wrap: break-word;
+}
+.childtwo{
+  border:3px solid green;
+  padding:3%;
+  margin:2%;
+  width:70%;
+border-radius: 10;
+background-color:#F5D0A9;
+}
+}
+@media only screen and (min-width:769px)and (max-width:1024px){
+  .parent{
+    display:flex;
+    flex-direction: row;
+    border:3px solid red;
+  }
+  .childone{
+    border:3px solid blue;
+    padding:5%;
+    margin:2%;
+    width:30%;
+    border-radius: 10%;
+    text-align:center;
+    background-color:#33FF68;
+  }
+
+  a,p,h1,h2,h3{
+    word-wrap: break-word;
+  }
+  .childtwo{
+    border:3px solid green;
+    padding:3%;
+    margin:2%;
+    width:70%;
+  border-radius: 10;
+  background-color:#E2A9F3;
+  }
+  }
+img{
+  width:75%;
+  border:2px solid pink;
+  border-radius: 100%;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  box-shadow:5px 7px 79px yellow;
+
+}
